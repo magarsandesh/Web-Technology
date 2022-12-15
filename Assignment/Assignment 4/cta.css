@@ -1,0 +1,37 @@
+body{
+    background-color: aliceblue;
+}
+div {
+    width: 450px;
+    height: 250px;
+    margin:auto;
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+}
+p{
+    font-size: 30px;
+    text-align: center;
+    font:bolder;
+}
+button{
+    height: 40px;
+    width: 150px;
+    border: none;
+    font-weight: 500;
+    border-radius: 6px;
+    padding: 10px; 
+    font-size: 18px;
+    margin:5px;
+}
+.l{
+    margin-left: 70px;
+    background-color: #2663EB;
+    color: aliceblue;
+}
+.r{
+    background-color: white;
+    border: 1px solid rgba(55, 65, 81, 0.397);
+}
