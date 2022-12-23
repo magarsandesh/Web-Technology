@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        // let char = ["LUFFY","ZORO","sanji",3];
+        // console.log(char[1]);
+        // char[3]="nami";
+        // char[6]="chopper";
+
+        // console.log(char.length);
+        // console.log(char.indexOf("ZORO"));
+        // console.unshift("sanji");
+
+        let rollno = [1,3,6,23];
+        // for(var i=0;i<5;i++){
+        //     rollno[i]="roll="+rollno[i];
+        // }
+        function loop(roll){
+            return "rollno="+roll;
+        }
+        rollno = rollno.map(loop);
+        console.log(rollno);
+
+        function testClosure(paramFunction){
+            console.log("inside testclosure");
+            paramFunction();
+            console.log("out");
+        }
+        
+        testClosure(function(){
+            console.log("mosh");
+        })
+
+
+        // console.log("roll = " +rollno[0]);
+        // console.log("roll = " + rollno[1]);
+        // console.log("roll = "+ rollno[2]);
+        // console.log("roll = "+ rollno[3]);
+    </script>
+</body>
+</html>
